@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tmall_ssh">
+    <output-path>$PROJECT_DIR$/out/artifacts/tmall_ssh</output-path>
+    <root id="archive" name="tmall_ssh.war">
+      <element id="artifact" artifact-name="tmall_ssh:war exploded" />
+    </root>
+  </artifact>
+</component>
