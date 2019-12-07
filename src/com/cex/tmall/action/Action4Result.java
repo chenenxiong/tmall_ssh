@@ -64,6 +64,7 @@ import org.apache.struts2.convention.annotation.Results;
                 @Result(name="buyPage", type = "redirect", location="forebuy?oiids=${oiid}"),
                 @Result(name="alipayPage", type = "redirect", location="forealipay?order.id=${order.id}&total=${total}"),
                 @Result(name="reviewPage", type = "redirect", location="forereview?order.id=${order.id}&showonly=${showonly}"),
+
         }
 )
 public class Action4Result extends Action4Service {

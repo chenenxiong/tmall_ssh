@@ -1,5 +1,6 @@
 package com.cex.tmall.action;
 
+import com.cex.tmall.pojo.Product;
 import com.cex.tmall.util.ImageUtil;
 import com.cex.tmall.util.Page;
 import com.cex.tmall.pojo.Category;
@@ -11,6 +12,7 @@ import org.aspectj.util.FileUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.imageio.ImageIO;
+import javax.persistence.Transient;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -18,6 +20,8 @@ import java.util.List;
 
 
 public class CategoryAction extends Action4Result{
+
+
     @Action("admin_category_list")
     public String list(){
         if(page == null) page=new Page();

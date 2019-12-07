@@ -9,8 +9,10 @@
          pageEncoding="UTF-8" isELIgnored="false" import="java.util.*" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="s" uri="/struts-tags" %>
-<%@ include file="/include/adminHeader.jsp"%>
-<%@ include file="/include/adminNavigator.jsp"%>
+
+
+<%@ include file="../include/adminHeader.jsp"%>
+<%@ include file="../include/adminNavigator.jsp"%>
 
 <script>
     $(function(){
@@ -27,7 +29,7 @@
 </script>
 
 <title>分类管理</title>
-
+<a href="<%= request.getContextPath()%>/img/img/aaa.jpg">方式二</a>
 <div class="workingArea">
     <h1 class="label label-info" >分类管理</h1>
     <br>

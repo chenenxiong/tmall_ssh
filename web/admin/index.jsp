@@ -12,7 +12,8 @@
 </head>
 <body>
 <%
-    response.sendRedirect("../admin_category_list");
+//    response.sendRedirect("../admin_category_list");
 %>
 </body>
+index test
 </html>
