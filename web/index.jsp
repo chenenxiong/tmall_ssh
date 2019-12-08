@@ -12,7 +12,7 @@
   </head>
   <body>
   <%
-   pageContext.forward("admin_category_list");
+   pageContext.forward("forehome");
   %>
   </body>
 </html>

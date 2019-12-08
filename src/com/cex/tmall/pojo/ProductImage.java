@@ -3,7 +3,7 @@ package com.cex.tmall.pojo;
 import javax.persistence.*;
 
 @Entity
-@Table(name="productImage")
+@Table(name="productimage")
 public class ProductImage {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

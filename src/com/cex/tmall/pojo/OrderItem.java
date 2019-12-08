@@ -3,7 +3,7 @@ package com.cex.tmall.pojo;
 import javax.persistence.*;
 
 @Entity
-@Table(name="orderItem")
+@Table(name="orderitem")
 public class OrderItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

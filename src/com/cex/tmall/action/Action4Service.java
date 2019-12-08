@@ -28,4 +28,7 @@ public class Action4Service extends Action4Pojo{
 
     @Autowired
     protected OrderItemService orderItemService;
+
+    @Autowired
+    protected ReviewService reviewService;
 }
